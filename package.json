@@ -13,5 +13,14 @@
   "type": "commonjs",
   "dependencies": {
     "express": "^5.2.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ersneha24/AngularJS_XML.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Ersneha24/AngularJS_XML/issues"
+  },
+  "homepage": "https://github.com/Ersneha24/AngularJS_XML#readme"
 }

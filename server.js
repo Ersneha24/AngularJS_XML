@@ -11,7 +11,7 @@ app.use(express.static(__dirname));
 let students = [
     {
         rollno: "101",
-        name: "Rahul Sharma",
+        name: "Sneha Chogale",
         branch: "Computer Engineering"
     },
     {
@@ -21,7 +21,7 @@ let students = [
     },
     {
         rollno: "103",
-        name: "Amit Joshi",
+        name: "Madhu Joshi",
         branch: "Computer Engineering"
     }
 ];
