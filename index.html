@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html ng-app="studentApp">
+
+<head>
+    <meta charset="UTF-8">
+    <title>AngularJS XML HTTP Example</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    <script src="app.js"></script>
+</head>
+
+<body ng-controller="StudentController">
+
+    <h1>Student Information</h1>
+
+    <button ng-click="getStudents()">
+        GET Student Data
+    </button>
+
+    <h2>Student Data</h2>
+
+    <table border="1" cellpadding="10" ng-if="students.length > 0">
+
+        <tr>
+            <th>Roll No</th>
+            <th>Name</th>
+            <th>Branch</th>
+        </tr>
+
+        <tr ng-repeat="student in students">
+            <td>{{student.rollno}}</td>
+            <td>{{student.name}}</td>
+            <td>{{student.branch}}</td>
+        </tr>
+
+    </table>
+
+    <hr>
+
+    <h2>POST Student Data</h2>
+
+    <form ng-submit="addStudent()">
+
+        Roll No:
+        <input type="text" ng-model="newStudent.rollno">
+        <br><br>
+
+        Name:
+        <input type="text" ng-model="newStudent.name">
+        <br><br>
+
+        Branch:
+        <input type="text" ng-model="newStudent.branch">
+        <br><br>
+
+        <button type="submit">
+            POST Student
+        </button>
+
+    </form>
+
+    <p>{{message}}</p>
+
+</body>
+</html>

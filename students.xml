@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<students>
+
+    <student>
+        <rollno>101</rollno>
+        <name>Rahul Sharma</name>
+        <branch>Computer Engineering</branch>
+    </student>
+
+    <student>
+        <rollno>102</rollno>
+        <name>Priya Patil</name>
+        <branch>Information Technology</branch>
+    </student>
+
+    <student>
+        <rollno>103</rollno>
+        <name>Amit Joshi</name>
+        <branch>Computer Engineering</branch>
+    </student>
+
+</students>
